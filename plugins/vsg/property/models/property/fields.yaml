@@ -1,0 +1,78 @@
+tabs:
+    fields:
+        name:
+            label: Название
+            span: auto
+            placeholder: 'Название объекта'
+            required: 1
+            type: text
+            tab: Недвижимость
+        description:
+            label: Описание
+            size: ''
+            span: auto
+            type: textarea
+            tab: Недвижимость
+        operation_id:
+            label: 'Тип операции'
+            span: auto
+            required: 1
+            type: dropdown
+            tab: Недвижимость
+        kindestate_id:
+            label: 'Вид недвижимости'
+            span: auto
+            required: 1
+            type: dropdown
+            tab: Недвижимость
+        town_id:
+            label: Город
+            span: auto
+            required: 1
+            type: dropdown
+            tab: Недвижимость
+        details:
+            label: Подробности
+            size: ''
+            span: auto
+            type: textarea
+            tab: Недвижимость
+        typeestate_id:
+            label: 'Тип недвижимости'
+            span: auto
+            required: 1
+            type: dropdown
+            tab: Недвижимость
+        carplace:
+            label: 'Кол-во машиномест'
+            span: auto
+            type: number
+            tab: Недвижимость
+        bedrooms:
+            label: 'Кол-во спален'
+            span: auto
+            required: 1
+            type: number
+            tab: Недвижимость
+        feature_id:
+            label: 'Имеющиеся фичи'
+            span: auto
+            type: checkboxlist
+            tab: Недвижимость
+        bathrooms:
+            label: 'Кол-во ванных комнат'
+            span: auto
+            type: number
+            tab: Недвижимость
+        image_id:
+            label: Файл
+            span: auto
+            mode: image
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            imageWidth: '80'
+            imageHeight: '80'
+            type: fileupload
+            tab: Фото

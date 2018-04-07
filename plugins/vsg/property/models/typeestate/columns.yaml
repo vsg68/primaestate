@@ -1,0 +1,9 @@
+columns:
+    name:
+        label: Вид
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: Описание
+        type: text

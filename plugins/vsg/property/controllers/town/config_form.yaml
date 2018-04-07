@@ -1,0 +1,10 @@
+name: Town
+modelClass: Vsg\Property\Models\Town
+form: $/vsg/property/models/town/fields.yaml
+defaultRedirect: vsg/property/town
+create:
+    redirect: 'vsg/property/town/update/:id'
+    redirectClose: vsg/property/town
+update:
+    redirect: vsg/property/town
+    redirectClose: vsg/property/town

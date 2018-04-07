@@ -1,0 +1,4 @@
+title: Kindestate
+modelClass: Vsg\Property\Models\Kindestate
+toolbar:
+    buttons: reorder_toolbar

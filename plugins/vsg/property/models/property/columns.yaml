@@ -1,0 +1,26 @@
+columns:
+    name:
+        label: Название
+        type: text
+        searchable: true
+    description:
+        label: Описание
+        type: text
+        sortable: false
+    operations_id:
+        label: 'Вид операции'
+        type: select
+        sortable: true
+    typeestate_id:
+        label: 'Тип объекта'
+        type: select
+        sortable: true
+    kindestate_id:
+        label: 'Вид недвижимости'
+        type: select
+        sortable: true
+    towns_id:
+        label: Город
+        type: select
+        searchable: true
+        sortable: true

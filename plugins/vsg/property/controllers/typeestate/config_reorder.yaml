@@ -1,0 +1,4 @@
+title: Typeestate
+modelClass: Vsg\Property\Models\Typeestate
+toolbar:
+    buttons: reorder_toolbar

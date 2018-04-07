@@ -1,0 +1,12 @@
+fields:
+    name:
+        label: Вид
+        span: left
+        placeholder: 'Вид недвижимости'
+        required: 1
+        type: text
+    description:
+        label: Описание
+        span: left
+        size: ''
+        type: textarea

@@ -1,0 +1,12 @@
+title: Operation
+modelClass: Vsg\Property\Models\Operation
+list: $/vsg/property/models/operation/columns.yaml
+recordUrl: 'vsg/property/operation/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

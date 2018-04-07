@@ -1,0 +1,29 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table vsg_property_property'
+    - builder_table_create_vsg_property_property.php
+1.0.3:
+    - 'Created table vsg_property_features'
+    - builder_table_create_vsg_property_features.php
+1.0.4:
+    - 'Created table vsg_property_images'
+    - builder_table_create_vsg_property_images.php
+1.0.5:
+    - 'Created table vsg_property_towns'
+    - builder_table_create_vsg_property_towns.php
+1.0.6:
+    - 'Created table vsg_property_operations'
+    - builder_table_create_vsg_property_operations.php
+1.0.7:
+    - 'Updated table vsg_property_property'
+    - builder_table_update_vsg_property_property.php
+1.0.8:
+    - 'Created table vsg_property_kindestate'
+    - builder_table_create_vsg_property_kindestate.php
+1.0.9:
+    - 'Created table vsg_property_typeestate'
+    - builder_table_create_vsg_property_typeestate.php
+1.0.10:
+    - 'Updated table vsg_property_property'
+    - builder_table_update_vsg_property_property_2.php

@@ -1,0 +1,10 @@
+name: Image
+form: $/vsg/property/models/image/fields.yaml
+modelClass: Vsg\Property\Models\Image
+defaultRedirect: vsg/property/image
+create:
+    redirect: 'vsg/property/image/update/:id'
+    redirectClose: vsg/property/image
+update:
+    redirect: vsg/property/image
+    redirectClose: vsg/property/image

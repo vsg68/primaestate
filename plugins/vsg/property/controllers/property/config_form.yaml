@@ -1,0 +1,10 @@
+name: Property
+form: $/vsg/property/models/property/fields.yaml
+modelClass: Vsg\Property\Models\Property
+defaultRedirect: vsg/property/property
+create:
+    redirect: 'vsg/property/property/update/:id'
+    redirectClose: vsg/property/property
+update:
+    redirect: vsg/property/property
+    redirectClose: vsg/property/property

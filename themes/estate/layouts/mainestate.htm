@@ -1,0 +1,57 @@
+description = "default"
+==
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7 no-js" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 no-js" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en" class="no-js">
+<head>
+	<!-- Basic need -->
+	<title>PrimaEstate</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Prima Estate">
+	<meta name="keywords" content="">
+	<meta name="author" content="vsg">
+	<link rel="profile" href="">
+	<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+
+	<!-- Mobile specific meta -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="format-detection" content="telephone-no">
+
+	<!-- External Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,700,800|Roboto:400,500,700" rel="stylesheet"> 
+
+	<!-- CSS files -->
+	<link rel="stylesheet" type="text/css" href="{{ ['assets/css/style.css','assets/css/plugins.css']|theme }}">
+	<!-- end CSS -->
+</head>
+
+<body>
+    <container>
+    {% page %}
+    </container>
+    <footer class="footer">
+        footer
+    </footer>
+    <a href="#" class="back-to-top"><span class="ion-ios-arrow-up"></span></a>
+    {% partial 'icons-chank' %}
+    <div id="page-loader">
+        {% partial 'loader' %}
+    </div>
+    <!-- Scripts -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/googlemaps/v3-utility-library/master/infobox/src/infobox.js"></script>
+        <script type="text/javascript" src="{{ ['assets/vendor/jquery.js',
+        										'assets/vendor/bootstrap.js',
+        										'assets/javascript/custom.js',
+        										'assets/vendor/plugins.js']|theme }}"></script>
+    <!-- end Scripts -->
+    {% framework %}            
+</body>
+</html>

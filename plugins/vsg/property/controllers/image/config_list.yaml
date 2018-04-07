@@ -1,0 +1,12 @@
+title: Image
+modelClass: Vsg\Property\Models\Image
+list: $/vsg/property/models/image/columns.yaml
+recordUrl: 'vsg/property/image/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

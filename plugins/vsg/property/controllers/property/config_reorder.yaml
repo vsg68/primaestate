@@ -1,0 +1,4 @@
+title: Property
+modelClass: Vsg\Property\Models\Property
+toolbar:
+    buttons: reorder_toolbar

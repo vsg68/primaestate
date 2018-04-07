@@ -1,0 +1,4 @@
+title: Operation
+modelClass: Vsg\Property\Models\Operation
+toolbar:
+    buttons: reorder_toolbar

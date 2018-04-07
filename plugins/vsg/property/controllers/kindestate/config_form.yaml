@@ -1,0 +1,10 @@
+name: Kindestate
+form: $/vsg/property/models/kindestate/fields.yaml
+modelClass: Vsg\Property\Models\Kindestate
+defaultRedirect: vsg/property/kindestate
+create:
+    redirect: 'vsg/property/kindestate/update/:id'
+    redirectClose: vsg/property/kindestate
+update:
+    redirect: vsg/property/kindestate
+    redirectClose: vsg/property/kindestate

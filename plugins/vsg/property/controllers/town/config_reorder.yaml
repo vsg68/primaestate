@@ -1,0 +1,4 @@
+title: Town
+modelClass: Vsg\Property\Models\Town
+toolbar:
+    buttons: reorder_toolbar

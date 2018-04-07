@@ -1,0 +1,10 @@
+name: Typeestate
+form: $/vsg/property/models/typeestate/fields.yaml
+modelClass: Vsg\Property\Models\Typeestate
+defaultRedirect: vsg/property/typeestate
+create:
+    redirect: 'vsg/property/typeestate/update/:id'
+    redirectClose: vsg/property/typeestate
+update:
+    redirect: vsg/property/typeestate
+    redirectClose: vsg/property/typeestate

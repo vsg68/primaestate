@@ -1,0 +1,34 @@
+plugin:
+    name: 'vsg.property::lang.plugin.name'
+    description: 'vsg.property::lang.plugin.description'
+    author: vsg
+    icon: oc-icon-home
+    homepage: ''
+navigation:
+    property:
+        label: Объект
+        url: vsg/property/property
+        icon: icon-home
+        permissions:
+            - '1'
+        sideMenu:
+            towns:
+                label: Города
+                url: vsg/property/town
+                icon: icon-building-o
+            operations:
+                label: 'Тип операции'
+                url: vsg/property/operation
+                icon: icon-adjust
+            kindestate:
+                label: 'Вид объектов'
+                url: vsg/property/kindestate
+                icon: icon-arrow-circle-o-down
+            typeestate:
+                label: 'Типы объектов'
+                url: vsg/property/typeestate
+                icon: icon-arrow-circle-o-up
+            images:
+                label: Фото
+                url: vsg/property/image
+                icon: icon-photo

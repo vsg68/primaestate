@@ -1,0 +1,12 @@
+fields:
+    name:
+        label: Операция
+        span: left
+        placeholder: 'Название операции'
+        required: 1
+        type: text
+    description:
+        label: Описание
+        span: left
+        size: ''
+        type: textarea

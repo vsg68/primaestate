@@ -1,0 +1,10 @@
+name: Operation
+form: $/vsg/property/models/operation/fields.yaml
+modelClass: Vsg\Property\Models\Operation
+defaultRedirect: vsg/property/operation
+create:
+    redirect: 'vsg/property/operation/update/:id'
+    redirectClose: vsg/property/operation
+update:
+    redirect: vsg/property/operation
+    redirectClose: vsg/property/operation

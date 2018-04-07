@@ -1,0 +1,8 @@
+columns:
+    name:
+        label: Файл
+        type: text
+        sortable: true
+    description:
+        label: Описание
+        type: text
