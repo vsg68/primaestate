@@ -1,0 +1,5 @@
+fields:
+    name:
+        label: Описание
+        span: left
+        type: text

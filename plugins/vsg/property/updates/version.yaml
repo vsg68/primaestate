@@ -27,3 +27,36 @@
 1.0.10:
     - 'Updated table vsg_property_property'
     - builder_table_update_vsg_property_property_2.php
+1.0.11:
+    - 'Updated table vsg_property_property'
+    - builder_table_update_vsg_property_property_3.php
+1.0.12:
+    - 'Updated table vsg_property_property'
+    - builder_table_update_vsg_property_property_4.php
+1.0.13:
+    - 'Updated table vsg_property_property'
+    - builder_table_update_vsg_property_property_5.php
+1.0.14:
+    - 'Updated table vsg_property_property'
+    - builder_table_update_vsg_property_property_6.php
+1.0.15:
+    - 'Drop table vsg_property_images'
+    - builder_table_delete_vsg_property_images.php
+1.0.16:
+    - 'Updated table vsg_property_property'
+    - builder_table_update_vsg_property_property_7.php
+1.0.17:
+    - 'Updated table vsg_property_features'
+    - builder_table_update_vsg_property_features.php
+1.0.18:
+    - 'Created table vsg_property_feature_propetry'
+    - builder_table_create_vsg_property_feature_propetry.php
+1.0.19:
+    - 'Updated table vsg_property_features'
+    - builder_table_update_vsg_property_feature.php
+1.0.20:
+    - 'Updated table vsg_property_feature'
+    - builder_table_update_vsg_property_feature_2.php
+1.0.21:
+    - 'Updated table vsg_property_feature_propetry'
+    - builder_table_update_vsg_property_feature_property.php

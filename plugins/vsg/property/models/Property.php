@@ -20,12 +20,25 @@ class Property extends Model
      */
     public $table = 'vsg_property_property';
 
-    public $hasMany = [
+    public $belongsTo = [
         "town"       => "vsg\Property\Models\Town",
-        
-        // "operation"  => "vsg\Property\Models\Operation",
-        // "kindestate" => "vsg\Property\Models\Kindestate",
-        // "typeestate" => "vsg\Property\Models\Typeestate",
-        // "image"      => "System\Models\File",
+        "operation"  => "vsg\Property\Models\Operation",
+        "kindestate" => "vsg\Property\Models\Kindestate",
+        "typeestate" => "vsg\Property\Models\Typeestate",
+    ];
+    
+    public $belongsToMany = [
+        "feature"   =>  [
+                        "vsg\Property\Models\Feature",
+                        "table" => "vsg_property_feature_property",
+                    ],
+    ];
+
+    public $attachMany = [
+         "image"      => "System\Models\File",
+    ];
+
+    public $attachOne = [
+        "main_photo"  => "System\Models\File",
     ];
 }

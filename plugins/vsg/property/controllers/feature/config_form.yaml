@@ -1,0 +1,11 @@
+name: Feature
+modelClass: Vsg\Property\Models\Feature
+form: $/vsg/property/models/feature/fields.yaml
+defaultRedirect: vsg/property/feature
+create:
+    redirect: 'vsg/property/feature/update/:id'
+    redirectClose: vsg/property/feature
+update:
+    redirect: vsg/property/feature
+    redirectClose: vsg/property/feature
+preview: {  }

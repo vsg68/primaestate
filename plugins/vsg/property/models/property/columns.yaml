@@ -7,20 +7,31 @@ columns:
         label: Описание
         type: text
         sortable: false
-    operations_id:
+    operation.name:
         label: 'Вид операции'
-        type: select
+        type: text
         sortable: true
-    typeestate_id:
+        relation: operation
+        valueFrom: name
+    typeestate.name:
         label: 'Тип объекта'
-        type: select
+        type: text
         sortable: true
-    kindestate_id:
+        relation: typeestate
+        valueFrom: name
+    kindestate.name:
         label: 'Вид недвижимости'
-        type: select
+        type: text
         sortable: true
-    towns_id:
+        relation: kindestate
+        valueFrom: name
+    town.name:
         label: Город
-        type: select
+        type: text
         searchable: true
         sortable: true
+        relation: town
+        valueFrom: name
+    price:
+        label: Цена
+        type: number

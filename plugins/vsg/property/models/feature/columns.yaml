@@ -1,0 +1,5 @@
+columns:
+    name:
+        label: Описание
+        type: text
+        sortable: true

@@ -25,4 +25,8 @@ class Town extends Model
      * @var string The database table used by the model.
      */
     public $table = 'vsg_property_towns';
+    
+//    public $hasMany = [
+//        "property" => "vsg/Property/Models/Property"
+//    ];
 }
