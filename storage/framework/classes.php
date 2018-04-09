@@ -265,4 +265,8 @@
   'RainLab\\Pages\\Classes\\SnippetManager' => 'plugins/rainlab/pages/classes/SnippetManager.php',
   'Vsg\\Property\\Models\\Feature' => 'plugins/vsg/property/models/Feature.php',
   'vsg\\Property\\Models\\Feature' => 'plugins/vsg/property/models/Feature.php',
+  'RainLab\\Translate\\Classes\\ThemeScanner' => 'plugins/rainlab/translate/classes/ThemeScanner.php',
+  'RainLab\\Pages\\Classes\\Snippet' => 'plugins/rainlab/pages/classes/Snippet.php',
+  'RainLab\\Translate\\Traits\\MLControl' => 'plugins/rainlab/translate/traits/MLControl.php',
+  'RainLab\\Translate\\FormWidgets\\MLText' => 'plugins/rainlab/translate/formwidgets/MLText.php',
 );
